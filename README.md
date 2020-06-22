@@ -98,9 +98,9 @@ passport.use(
 
 
 
-DB set up 
+<h2> DB set up </h2>
 
-CREATE DATABASE dname;
-USE dname;
+CREATE DATABASE dname;<br>
+USE dname;<br>
 CREATE TABLE users (id int AUTO_INCREMENT, username varchar(20), password varchar(128), PRIMARY KEY (id));
 
